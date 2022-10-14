@@ -56,7 +56,5 @@ public class Main
             }
             System.out.println();
         }
-
-        Scanner in = new Scanner(System.in);
     }
 }
