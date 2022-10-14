@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+
 public class Main
 {
     public static void main(String[] args)
@@ -24,5 +27,36 @@ public class Main
         {
             System.out.println(cnt);
         }
+
+
+        for(int r = 1; r <= 5; r++)
+        {
+            for(int c = 1; c <= 5; c++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+
+        for(int r = 1; r <= 5; r++)
+        {
+            for(int c = 1; c <= r; c++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for(int r = 5; r >= 1; r--)
+        {
+            for(int c = 1; c <= r; c++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        Scanner in = new Scanner(System.in);
     }
 }
